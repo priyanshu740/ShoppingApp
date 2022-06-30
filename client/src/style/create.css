@@ -1,0 +1,48 @@
+.writeFormGroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  
+}
+.writeForm{
+  width: 600px;
+  background-color: rgb(226, 210, 241);
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+.writeFormGroup span{
+  text-transform: capitalize;
+  font-family: cursive;
+  margin: 5px;
+  font-size: larger;
+}
+
+.writeFormGroup input,textarea,.writeSubmit{
+  margin: 10px;
+  padding: 7px;
+  text-align: center;
+  border: 2px solid black;
+  font-size: large;
+  border-radius: 5px;
+}
+.writeFormGroup input {
+  width: 250px;
+}
+.writeFormGroup .writeFile{
+  width: 231px;
+}
+.writeFormGroup textarea{
+  padding: 0px;
+  width: 240px;
+}
+.writeFormGroup writeSubmit{
+  width:170px;
+  background-color: aliceblue;
+}
+.writeFormGroup button:hover{
+  background-color: rgb(191, 223, 251);
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.i-cart img{
+width: 130px;
+height: 130px;
+}
+.i-cart{
+    display: flex;
+
+    flex-direction: row;
+    
+    margin: 5px;
+}
+.main{
+    flex-direction: column;
+    display: flex;
+}
+.c-items{
+background-color: rgb(138, 138, 222);
+ display: flex;
+ align-items: center;
+ margin:  15px;
+ padding: 5px;
+ width: 70vw;
+
+}
+.c-items span{
+    margin: 30px;
+    font-size: x-large;
+}
+.c-items select{
+    margin: 30px;
+    width: 39px;
+    height: 26px;
+    font-size: large;
+    color: black;
+}
+ .i-right{
+    background-color: rgb(210, 192, 227);
+    height: 70vh;
+    width: 60%;
+    padding: 10px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.i-right span{
+    font-size: larger;
+    padding: 10px;
+}
+.i-right button{
+    padding: 5px;
+    background-color: rgb(210, 30, 30);
+    width: 8vw;
+    color: aliceblue;
+    margin-top: 10px;
+font-size: large;   
+ border-radius: 4px;
+    align-items: center;
+}

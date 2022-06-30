@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+  }
+  
+  .filters {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    margin: 10px;
+    height: 86vh;
+  }
+  
+  .filters input {
+    background-color: yellowgreen;
+  }
+  .filters span{
+    font-size: x-large;
+    margin-left: 10px;
+  }
+  .sort li{
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #427ab3;
+    margin: 10px;
+    padding: 5px;border-radius: 4px;
+    font-size: larger;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
